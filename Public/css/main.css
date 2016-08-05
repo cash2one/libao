@@ -1,0 +1,62 @@
+body{
+    font-family: "Microsoft Yahei", 微软雅黑, 宋体, arial, "Hiragino Sans GB", Tahoma, Arial, Helvetica;
+}
+input,
+button,
+select,
+textarea {
+	outline: none;
+}
+
+* {
+	padding: 0;
+}
+
+a:hover {
+	cursor: pointer;
+	text-decoration: none!important;
+}
+
+.dataTables_paginate{
+	text-align: left;
+}
+.paging{
+	margin: 20px 0 0 -27px;
+}
+.padding-top{
+	padding-top: 15px;
+}
+.floatL{
+	float: left;
+}
+.floatR{
+	float: right;
+}
+.padding-12 {
+    padding: 0 12px;
+}
+.btn-radius {
+    border-radius: 5px;
+}
+.marginleft10 {
+    margin-left: 10px;
+}
+.padding-bottom{
+	padding-bottom: 16px;
+}
+.leadingin{
+	display: block;
+	cursor: ;
+	
+}
+.importPackage span{
+	display: block;
+	margin-top: 6px;
+}
+.upload{
+	float: left;
+    width: 170px;
+}
+.collectRecords-table,.packagelist-table{
+	width: 100%;
+}

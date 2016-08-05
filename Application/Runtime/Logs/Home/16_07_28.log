@@ -1,0 +1,1664 @@
+[ 2016-07-28T09:20:12+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T09:20:29+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/importExcel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-07-28T09:22:35+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/importExcel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T09:22:36+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/importExcel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T09:22:36+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/importExcel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T09:22:37+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/importExcel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-28T09:23:48+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/importExcel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T09:23:50+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/importExcel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T09:23:56+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/importExcel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T09:24:03+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/importExcel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Could not open ./test.xlsx for reading! File does not exist.
+
+[ 2016-07-28T09:27:11+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/importExcel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: Could not open /test.xlsx for reading! File does not exist.
+
+[ 2016-07-28T09:27:17+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/importExcel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: Could not open test.xlsx for reading! File does not exist.
+
+[ 2016-07-28T09:27:18+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/importExcel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: Could not open test.xlsx for reading! File does not exist.
+
+[ 2016-07-28T09:29:00+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/importExcel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T09:29:01+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/importExcel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T09:29:48+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/importExcel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T09:33:15+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/exportExcel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T09:33:31+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/exportExcel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T09:34:52+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/importExcel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-07-28T09:35:19+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/importExcel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T09:35:33+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/importExcel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T09:35:46+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/importExcel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T09:55:41+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/importExcel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T09:55:54+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/importExcel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-07-28T09:56:33+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/importExcel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T09:56:42+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/importExcel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T09:56:43+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/importExcel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T09:56:43+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/importExcel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T09:56:50+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/importExcel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T13:53:57+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T14:05:45+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T14:06:02+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T14:06:07+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T14:08:23+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T14:09:16+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T14:09:27+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T14:09:58+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T14:10:07+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T14:10:40+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-07-28T14:10:47+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T14:11:01+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T14:12:57+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T14:13:46+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T14:14:16+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T14:14:18+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T14:14:23+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-28T14:14:28+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T14:14:52+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T14:14:54+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T14:15:02+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T14:15:08+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T14:15:25+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T14:15:45+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T14:15:50+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-28T14:16:17+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-28T14:17:05+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T14:17:58+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T14:18:03+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-07-28T14:19:23+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T14:20:44+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\dingding\wamp\www\libao\ThinkPHP\Library\Think\Upload.class.php 第 182 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.018001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T14:20:45+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T14:21:19+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\dingding\wamp\www\libao\ThinkPHP\Library\Think\Upload.class.php 第 182 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T14:21:20+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T14:21:22+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] finfo_file(): Empty filename or path E:\dingding\wamp\www\libao\ThinkPHP\Library\Think\Upload.class.php 第 164 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-28T14:21:31+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\dingding\wamp\www\libao\ThinkPHP\Library\Think\Upload.class.php 第 182 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T14:21:32+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T14:23:24+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\dingding\wamp\www\libao\ThinkPHP\Library\Think\Upload.class.php 第 182 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T14:23:25+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T14:40:38+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\dingding\wamp\www\libao\ThinkPHP\Library\Think\Upload.class.php 第 182 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T14:40:39+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T14:40:45+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\dingding\wamp\www\libao\ThinkPHP\Library\Think\Upload.class.php 第 182 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.012001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T14:40:46+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T14:41:56+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T15:41:04+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T15:41:13+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T17:13:01+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-28T17:13:03+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-28T17:13:11+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\dingding\wamp\www\libao\ThinkPHP\Library\Think\Upload.class.php 第 182 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T17:29:09+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\dingding\wamp\www\libao\ThinkPHP\Library\Think\Upload.class.php 第 182 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T17:29:52+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\dingding\wamp\www\libao\ThinkPHP\Library\Think\Upload.class.php 第 182 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T17:31:45+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\dingding\wamp\www\libao\ThinkPHP\Library\Think\Upload.class.php 第 182 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] finfo_file(E:\dingding\wamp\tmp\phpE89A.tmp): failed to open stream: No such file or directory E:\dingding\wamp\www\libao\ThinkPHP\Library\Think\Upload.class.php 第 164 行.
+NOTIC: [8] Undefined index: savepath E:\dingding\wamp\www\libao\ThinkPHP\Library\Think\Upload.class.php 第 229 行.
+NOTIC: [8] Undefined index: savename E:\dingding\wamp\www\libao\ThinkPHP\Library\Think\Upload.class.php 第 229 行.
+
+[ 2016-07-28T17:32:44+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\dingding\wamp\www\libao\ThinkPHP\Library\Think\Upload.class.php 第 182 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T17:43:40+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `game` [ RunTime:0.0160s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\dingding\wamp\www\libao\ThinkPHP\Library\Think\Db\Driver.class.php 第 909 行.
+SQL: INSERT INTO `game` () VALUES () [ RunTime:0.0380s ]
+NOTIC: [2] Illegal string offset 'id' E:\dingding\wamp\www\libao\ThinkPHP\Library\Think\Model.class.php 第 351 行.
+SQL: SHOW COLUMNS FROM `gamepacks` [ RunTime:0.0150s ]
+SQL: INSERT INTO `gamepacks` (`game_id`,`gift_name`,`token`,`content`,`endtime`) VALUES ('1','《御剑情缘》礼包','御剑情缘礼包',' 御剑招财礼包：绑定元宝X100，2级宝石箱X1，宁神果X15，乌鱼蛋X2
+御剑富贵礼包：绑定元宝X200，2级宝石箱X3，宁神果X20，烤乳猪X1','1471622400') [ RunTime:0.0280s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\dingding\wamp\www\libao\ThinkPHP\Library\Think\Upload.class.php 第 182 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+ERR: Could not open Uploads/5799d3cc77700.xlsx for reading! File does not exist.
+
+[ 2016-07-28T17:50:34+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `game` [ RunTime:0.0040s ]
+SQL: INSERT INTO `game` (`game_name`) VALUES ('御剑礼包') [ RunTime:0.0480s ]
+SQL: SHOW COLUMNS FROM `gamepacks` [ RunTime:0.0130s ]
+SQL: INSERT INTO `gamepacks` (`game_id`,`gift_name`,`token`,`content`,`endtime`) VALUES ('2','御剑礼包','御剑礼包','御剑招财礼包：绑定元宝X100，2级宝石箱X1，宁神果X15，乌鱼蛋X2
+御剑富贵礼包：绑定元宝X200，2级宝石箱X3，宁神果X20，烤乳猪X1','1471622400') [ RunTime:0.0300s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\dingding\wamp\www\libao\ThinkPHP\Library\Think\Upload.class.php 第 182 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+ERR: Could not open Uploads/5799d56a61242.xlsx for reading! File does not exist.
+
+[ 2016-07-28T17:51:44+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `game` [ RunTime:0.0050s ]
+SQL: INSERT INTO `game` (`game_name`) VALUES ('御剑礼包2') [ RunTime:0.0480s ]
+SQL: SHOW COLUMNS FROM `gamepacks` [ RunTime:0.0140s ]
+SQL: INSERT INTO `gamepacks` (`game_id`,`gift_name`,`token`,`content`,`endtime`) VALUES ('3','御剑礼包2','御剑礼包2',' 御剑招财礼包：绑定元宝X100，2级宝石箱X1，宁神果X15，乌鱼蛋X2
+御剑富贵礼包：绑定元宝X200，2级宝石箱X3，宁神果X20，烤乳猪X1','1471622400') [ RunTime:0.0420s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\dingding\wamp\www\libao\ThinkPHP\Library\Think\Upload.class.php 第 182 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+ERR: Could not open Uploads/5799d5b042226.xlsx for reading! File does not exist.
+
+[ 2016-07-28T17:53:40+08:00 ] 127.0.0.1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `game` [ RunTime:0.0040s ]
+SQL: INSERT INTO `game` (`game_name`) VALUES ('御剑礼包3') [ RunTime:0.1100s ]
+SQL: SHOW COLUMNS FROM `gamepacks` [ RunTime:0.0140s ]
+SQL: INSERT INTO `gamepacks` (`game_id`,`gift_name`,`token`,`content`,`endtime`) VALUES ('4','御剑礼包3','御剑礼包3',' 御剑礼包3','1469721600') [ RunTime:0.0290s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\dingding\wamp\www\libao\ThinkPHP\Library\Think\Upload.class.php 第 182 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+SQL: SHOW COLUMNS FROM `code` [ RunTime:0.0040s ]
+ERR: :
+ [ SQL语句 ] : INSERT INTO `code` (`giftsid=`,`code=`) VALUES ('4','YJLNSHFTSRUBLL1')
+ERR: :
+ [ SQL语句 ] : INSERT INTO `code` (`giftsid=`,`code=`) VALUES ('4','YJLNSHFTSRUBLL1')
+
