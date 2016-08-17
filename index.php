@@ -18,8 +18,11 @@ if (version_compare(PHP_VERSION, '5.3.0', '<')) {
 
 // 开启调试模式 建议开发阶段开启 部署阶段注释或者设为false
 define('APP_DEBUG', true);
+<<<<<<< HEAD
 define('URL_MODEL',2);
 
+=======
+>>>>>>> a8aa1378f970e1707dbfce2de12c3738aef8c177
 define('DB_FIELD_CACHE',false);
 define('HTML_CACHE_ON',false);
 
