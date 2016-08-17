@@ -1,29 +1,44 @@
 <?php
+
 namespace Home\Controller;
 
 use Think\Controller;
-
+header("Content-Type: text/html;charset=utf8");
 class IndexController extends Controller
 {
     public function index()
     {
        date_default_timezone_set('PRC');
        $Model=M();
-       if(isset($_POST['submit'])){
+   
+       if(isset($_POST['submit'])){ 
+        
+           $game['game_name']=$_POST['gamename'];
+           
+           $sql='select gameid from game where game_name="'.$game['game_name'].'"';
+           $result=$Model->query($sql);
+           if($result){
+               $data['game_id']=$result[0]['gameid'];
+           }else{
+               $data['game_id']=$Model->table('game')->add($game);
+           }
+           
           
-           $game['game_name']=$_POST['game_name'];
-           $data['game_id']=$Model->table('game')->add($game);
-           $data['gift_name']=$_POST['gift_name'];
+           $data['gift_name']=$_POST['giftname'];
            $data['token']=$_POST['token'];
            $data['content']=$_POST['content'];
-           $data['endtime']=strtotime($_POST['endtime']);
+           $data['content'] = str_replace("\n", '<br>', $data['content']);
+           $data['endtime']=strtotime($_POST['time'])+86399;
+           $data['shuoming']=$_POST['shuoming'];
+           $data['shuoming'] = str_replace("\n", '<br>', $data['shuoming']);
+           $data['platform']=$_POST['platform'];
            $giftsid=$Model->table('gamepacks')->add($data);
            $a=$this->upload();
            $this->importExcel($a,$giftsid);
-       }
+        
       
-       
-       // $this->display('input');
+       }
+      // $this->display('Index/wechatGiftbagIndex');
     }
     
     
@@ -54,45 +69,27 @@ class IndexController extends Controller
                 $count = ord($currentColumn) - 65;
                 $val = $currentSheet->getCellByColumnAndRow($count,$currentRow)->getValue();
             }
-            $data['giftsid=']=$id;
-            $data['code=']=trim($val);
-            $Model->table('code')->add( $data);
-            $i++;
+            if(!empty($val)){
+                $data[$i]['giftsid']=$id;
+                $data[$i]['code']=trim($val);
+                $i++;
+            }
+           
         }
+     
+        $result=$Model->table('code')->addAll( $data);
+        if($result){
+            $Model->table('gamepacks')->where("giftsid='$id'")->setInc('stock',$i);
+            echo "<script language=javascript>alert('上传完成\\n礼包数量$i');location.href='index.php?m=Home&c=Record&a=lists'</script>";
+            exit;
+        }else{
+            echo "<script language=javascript>alert('上传失败\\n礼包码存在重复，请检查文件');location.href='index.php?m=Home&c=Record&a=lists'</script>";
+            exit;
+          //  $this->error("上传失败\n礼包码存在重复，请检查文件","index.php?m=Home&c=Record&a=lists");
+        }       
        
     }
-    
-    
-    //start
-    public function exportExcel(){
-        vendor('PHPExcel.PHPExcel');
-        $objExcel = new \PHPExcel();
-        //set document Property
-        $objWriter = \PHPExcel_IOFactory::createWriter($objExcel, 'Excel2007');
-    
-        $objActSheet = $objExcel->getActiveSheet();
-        $key = ord("A");
-    
-        $objActSheet->setCellValue("A1", 'test1');
-        $objActSheet->setCellValue("A2", 'test2');
-        $objActSheet->setCellValue("B1", 'test3');
-        $objActSheet->setCellValue("B2", 'test4');
-    
-        $outfile = "test.xls";
-    
-        //export to exploer
-    
-        header("Content-Type: application/force-download");
-        header("Content-Type: application/octet-stream");
-        header("Content-Type: application/download");
-        header('Content-Disposition:inline;filename="'.$outfile.'"');
-        header("Content-Transfer-Encoding: binary");
-        header("Cache-Control: must-revalidate, post-check=0, pre-check=0");
-        header("Pragma: no-cache");
-        $objWriter->save('php://output');
-        exit;
-    }
-    //end
+     
     
     //上传文件
     public function upload() {
@@ -103,13 +100,27 @@ class IndexController extends Controller
         $upload->rootPath='./Public/';
         $upload->savePath =  'Uploads/';// 设置附件上传目录
         $upl=$upload->upload();
-        if(!$upl) {// 上传错误提示错误信息
-            $this->error($upload->getError());
-        }else{// 上传成功
-            $this->success('上传成功！');
+        if(!$upl) {// 上传错误提示错误信息       
+        $message=$upload->getError();
+          echo "<script language=javascript>alert('$message');location.href='index.php?m=Home&c=Record&a=lists'</script>";
+          exit; 
         }
+
         return $upl;
         
+    }
+    
+    public function importAgainDeal(){
+        $a=$this->upload();
+        $giftsid=$_POST['giftsid'];   
+        try {
+           $this->importExcel($a,$giftsid);     
+        } catch (\Exception $e) {
+            echo "<script>alert('上传失败\\n礼包码存在重复，请检查文件');location.href='index.php?m=Home&c=Record&a=lists'</script>";
+            exit;
+        }
+        
+       // $this->display('Index/wechatGiftbagIndex');      
     }
    
 }

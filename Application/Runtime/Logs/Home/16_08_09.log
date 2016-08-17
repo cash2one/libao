@@ -1,0 +1,1213 @@
+[ 2016-08-09T10:57:55+08:00 ] ::1 /libao/index.php/Home/Record/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `game` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `game`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T10:57:55+08:00 ] ::1 /libao/index.php/Home/Record/listsdata?_=1470711475190
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.*,FROM_UNIXTIME(a.gettime, '%Y-%m-%d %H:%i:%s') as gettime,game_name,c.gift_name,c.content from code as a, game as b,gamepacks as c
+                where  a.giftsid=c.giftsid and b.gameid=c.game_id and  flag=1 [ RunTime:0.0330s ]
+
+[ 2016-08-09T10:57:56+08:00 ] ::1 /libao/index.php/Home/Record/giftsdata?_=1470711475191
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select *,FROM_UNIXTIME(endtime, '%Y-%m-%d %H:%i:%s') as endtime1 from gamepacks where 1=1 order by endtime desc [ RunTime:0.0000s ]
+
+[ 2016-08-09T11:08:17+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=lisis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:lisis
+
+[ 2016-08-09T11:08:21+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `game` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `game`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T11:10:34+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `game` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `game`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-09T11:10:34+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=listsdata&_=1470712234356
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: select a.*,FROM_UNIXTIME(a.gettime, '%Y-%m-%d %H:%i:%s') as gettime,game_name,c.gift_name,c.content from code as a, game as b,gamepacks as c
+                where  a.giftsid=c.giftsid and b.gameid=c.game_id and  flag=1 [ RunTime:0.0070s ]
+
+[ 2016-08-09T11:12:05+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `game` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `game`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T11:12:05+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=listsdata&_=1470712325617
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.*,FROM_UNIXTIME(a.gettime, '%Y-%m-%d %H:%i:%s') as gettime,game_name,c.gift_name,c.content from code as a, game as b,gamepacks as c
+                where  a.giftsid=c.giftsid and b.gameid=c.game_id and  flag=1 [ RunTime:0.0060s ]
+
+[ 2016-08-09T11:12:06+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=giftsdata&_=1470712325618
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select *,FROM_UNIXTIME(endtime, '%Y-%m-%d %H:%i:%s') as endtime1 from gamepacks where 1=1 order by endtime desc [ RunTime:0.0010s ]
+
+[ 2016-08-09T11:12:15+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `game` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `game`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T11:12:15+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=listsdata&_=1470712335581
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.*,FROM_UNIXTIME(a.gettime, '%Y-%m-%d %H:%i:%s') as gettime,game_name,c.gift_name,c.content from code as a, game as b,gamepacks as c
+                where  a.giftsid=c.giftsid and b.gameid=c.game_id and  flag=1 [ RunTime:0.0070s ]
+
+[ 2016-08-09T11:12:16+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=giftsdata&_=1470712335582
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select *,FROM_UNIXTIME(endtime, '%Y-%m-%d %H:%i:%s') as endtime1 from gamepacks where 1=1 order by endtime desc [ RunTime:0.0010s ]
+
+[ 2016-08-09T11:12:21+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=listsdata&_=1470712341164
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select a.*,FROM_UNIXTIME(a.gettime, '%Y-%m-%d %H:%i:%s') as gettime,game_name,c.gift_name,c.content from code as a, game as b,gamepacks as c
+                where  a.giftsid=c.giftsid and b.gameid=c.game_id and  flag=1 [ RunTime:0.0060s ]
+
+[ 2016-08-09T11:12:22+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=giftsdata&_=1470712341165
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select *,FROM_UNIXTIME(endtime, '%Y-%m-%d %H:%i:%s') as endtime1 from gamepacks where 1=1 order by endtime desc [ RunTime:0.0000s ]
+
+[ 2016-08-09T11:14:47+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `game` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `game`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T11:14:47+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=listsdata&_=1470712487423
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.*,FROM_UNIXTIME(a.gettime, '%Y-%m-%d %H:%i:%s') as gettime,game_name,c.gift_name,c.content from code as a, game as b,gamepacks as c
+                where  a.giftsid=c.giftsid and b.gameid=c.game_id and  flag=1 [ RunTime:0.0060s ]
+
+[ 2016-08-09T11:14:48+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=giftsdata&_=1470712487424
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select *,FROM_UNIXTIME(endtime, '%Y-%m-%d %H:%i:%s') as endtime1 from gamepacks where 1=1 order by endtime desc [ RunTime:0.0000s ]
+
+[ 2016-08-09T11:14:49+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=news_step2&name=%E5%BE%A1%E5%89%91%E6%83%85%E7%BC%98
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-09T11:14:53+08:00 ] ::1 /libao/index.php/Home/Record/checkGiftName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select giftsid from gamepacks where gift_name="s" [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-09T11:14:54+08:00 ] ::1 /libao/index.php/Home/Record/checkGiftName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: select giftsid from gamepacks where gift_name="ss" [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-09T11:14:55+08:00 ] ::1 /libao/index.php/Home/Record/checkToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select giftsid from gamepacks where token="s" [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-09T11:14:55+08:00 ] ::1 /libao/index.php/Home/Record/checkToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select giftsid from gamepacks where token="ss" [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-09T11:14:55+08:00 ] ::1 /libao/index.php/Home/Record/checkToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select giftsid from gamepacks where token="sss" [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2016-08-09T11:15:02+08:00 ] ::1 /libao/index.php/Home/Record/checkGiftName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select giftsid from gamepacks where gift_name="yu" [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-09T11:15:02+08:00 ] ::1 /libao/index.php/Home/Record/checkGiftName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select giftsid from gamepacks where gift_name="yuji" [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-09T11:15:02+08:00 ] ::1 /libao/index.php/Home/Record/checkGiftName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select giftsid from gamepacks where gift_name="yujia" [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-09T11:15:02+08:00 ] ::1 /libao/index.php/Home/Record/checkGiftName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select giftsid from gamepacks where gift_name="yujian" [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-09T11:15:03+08:00 ] ::1 /libao/index.php/Home/Record/checkGiftName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select giftsid from gamepacks where gift_name="御剑" [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-09T11:15:03+08:00 ] ::1 /libao/index.php/Home/Record/checkGiftName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select giftsid from gamepacks where gift_name="御剑qi" [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-09T11:15:03+08:00 ] ::1 /libao/index.php/Home/Record/checkGiftName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select giftsid from gamepacks where gift_name="御剑qin" [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-09T11:15:03+08:00 ] ::1 /libao/index.php/Home/Record/checkGiftName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select giftsid from gamepacks where gift_name="御剑qing" [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-09T11:15:03+08:00 ] ::1 /libao/index.php/Home/Record/checkGiftName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select giftsid from gamepacks where gift_name="御剑qingyu" [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-09T11:15:04+08:00 ] ::1 /libao/index.php/Home/Record/checkGiftName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select giftsid from gamepacks where gift_name="御剑qingyuan" [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-09T11:15:04+08:00 ] ::1 /libao/index.php/Home/Record/checkGiftName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select giftsid from gamepacks where gift_name="御剑情缘" [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-09T11:15:05+08:00 ] ::1 /libao/index.php/Home/Record/checkGiftName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select giftsid from gamepacks where gift_name="御剑qingyua" [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-09T11:16:02+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=news_step2&name=%E5%BE%A1%E5%89%91%E6%83%85%E7%BC%98
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T11:16:10+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=checkGiftName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select giftsid from gamepacks where gift_name="御剑情缘" [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-09T11:16:12+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=checkGiftName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: select giftsid from gamepacks where gift_name="御剑情缘li" [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-09T11:16:12+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=checkGiftName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select giftsid from gamepacks where gift_name="御剑情缘lib" [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-09T11:16:12+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=checkGiftName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select giftsid from gamepacks where gift_name="御剑情缘libao" [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-08-09T11:16:12+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=checkGiftName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select giftsid from gamepacks where gift_name="御剑情缘礼包" [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-09T11:16:16+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=checkGiftName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select giftsid from gamepacks where gift_name="《》御剑情缘礼包" [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2016-08-09T11:16:19+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=checkGiftName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select giftsid from gamepacks where gift_name="《》礼包" [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T11:16:21+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=checkGiftName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select giftsid from gamepacks where gift_name="《御剑情缘》礼包" [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-09T11:16:28+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=checkToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select giftsid from gamepacks where token="御剑情缘礼包" [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T11:16:34+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=checkGiftName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select giftsid from gamepacks where gift_name="《御剑情缘》礼包1" [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T11:16:35+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=checkToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: select giftsid from gamepacks where token="御剑情缘礼包1" [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-09T11:17:05+08:00 ] ::1 /libao/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: select gameid from game where game_name="御剑情缘" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gamepacks` [ RunTime:0.0050s ]
+SQL: INSERT INTO `gamepacks` (`game_id`,`gift_name`,`token`,`content`,`endtime`,`shuoming`,`platform`) VALUES ('1','《御剑情缘》礼包1','御剑情缘礼包1','1111','1471968000','1111','IOS') [ RunTime:0.0550s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\dingding\wamp\www\libao\ThinkPHP\Library\Think\Upload.class.php 第 182 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+SQL: SHOW COLUMNS FROM `code` [ RunTime:0.0070s ]
+SQL: INSERT INTO `code` (`giftsid`,`code`) VALUES ('35','43A2SS34NS3Y2RNX'),('35','37KQ9C34JDNC3Z3V'),('35','84N7XR34X3QHAG4D'),('35','358A3NHX4GA3APW5'),('35','986M34MBWM3WUZ6U'),('35','633HW34MWC3JFSF7'),('35','957EBV3A4B3UYAK8'),('35','45F9UR3TH4ZU3CB9'),('35','725PZD34P3WGZPIQ'),('35','589SW34WP3DWJNWQ') [ RunTime:0.0610s ]
+SQL: SHOW COLUMNS FROM `gamepacks` [ RunTime:0.0150s ]
+SQL: UPDATE `gamepacks` SET `stock`=stock+10 WHERE ( giftsid='35' ) [ RunTime:0.0300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-08-09T11:17:06+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=news_step2&name=%E5%BE%A1%E5%89%91%E6%83%85%E7%BC%98
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-09T11:18:20+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=news_step2&name=%E5%BE%A1%E5%89%91%E6%83%85%E7%BC%98
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T11:18:34+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=checkGiftName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select giftsid from gamepacks where gift_name="测试url" [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T11:18:35+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=checkToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: select giftsid from gamepacks where token="测试url" [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-09T11:18:46+08:00 ] ::1 /libao/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select gameid from game where game_name="御剑情缘" [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gamepacks` [ RunTime:0.0050s ]
+SQL: INSERT INTO `gamepacks` (`game_id`,`gift_name`,`token`,`content`,`endtime`,`shuoming`,`platform`) VALUES ('1','测试url','测试url','测试url','1470844800','测试url','IOS') [ RunTime:0.0430s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\dingding\wamp\www\libao\ThinkPHP\Library\Think\Upload.class.php 第 182 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options E:\dingding\wamp\www\libao\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Settings.php 第 384 行.
+SQL: SHOW COLUMNS FROM `code` [ RunTime:0.0060s ]
+SQL: INSERT INTO `code` (`giftsid`,`code`) VALUES ('36','43A2SS34NS3Y2RNX'),('36','37KQ9C34JDNC3Z3V'),('36','84N7XR34X3QHAG4D'),('36','358A3NHX4GA3APW5'),('36','986M34MBWM3WUZ6U'),('36','633HW34MWC3JFSF7'),('36','957EBV3A4B3UYAK8'),('36','45F9UR3TH4ZU3CB9'),('36','725PZD34P3WGZPIQ'),('36','589SW34WP3DWJNWQ') [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `gamepacks` [ RunTime:0.0060s ]
+SQL: UPDATE `gamepacks` SET `stock`=stock+10 WHERE ( giftsid='36' ) [ RunTime:0.0220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T11:18:48+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=news_step2&name=%E5%BE%A1%E5%89%91%E6%83%85%E7%BC%98
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T13:44:45+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=checkGiftName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select giftsid from gamepacks where gift_name="wwww" [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T13:44:46+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=checkToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select giftsid from gamepacks where token="wwww" [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-09T13:44:57+08:00 ] ::1 /libao/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select gameid from game where game_name="御剑情缘" [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `gamepacks` [ RunTime:0.0070s ]
+SQL: INSERT INTO `gamepacks` (`game_id`,`gift_name`,`token`,`content`,`endtime`,`shuoming`,`platform`) VALUES ('1','wwww','wwww','wwww','1470844800','www','IOS') [ RunTime:0.1850s ]
+NOTIC: [8] Undefined index: savepath E:\dingding\wamp\www\libao\ThinkPHP\Library\Think\Upload.class.php 第 229 行.
+NOTIC: [8] Undefined index: savename E:\dingding\wamp\www\libao\ThinkPHP\Library\Think\Upload.class.php 第 229 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-09T13:45:02+08:00 ] ::1 /libao/index.php?m=Home&c=Record&a=lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `game` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `game`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-09T13:45:02+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=listsdata&_=1470721502482
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select a.*,FROM_UNIXTIME(a.gettime, '%Y-%m-%d %H:%i:%s') as gettime,game_name,c.gift_name,c.content from code as a, game as b,gamepacks as c
+                where  a.giftsid=c.giftsid and b.gameid=c.game_id and  flag=1 [ RunTime:0.0070s ]
+
+[ 2016-08-09T13:45:03+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=giftsdata&_=1470721502483
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: select *,FROM_UNIXTIME(endtime, '%Y-%m-%d %H:%i:%s') as endtime1 from gamepacks where 1=1 order by endtime desc [ RunTime:0.0000s ]
+
+[ 2016-08-09T13:45:20+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=news_step2&name=%E5%BE%A1%E5%89%91%E6%83%85%E7%BC%98
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-09T14:15:32+08:00 ] ::1 /libao/index.php?m=Home&c=Record&a=lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `game` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `game`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-09T14:15:32+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=listsdata&_=1470723332162
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.*,FROM_UNIXTIME(a.gettime, '%Y-%m-%d %H:%i:%s') as gettime,game_name,c.gift_name,c.content from code as a, game as b,gamepacks as c
+                where  a.giftsid=c.giftsid and b.gameid=c.game_id and  flag=1 [ RunTime:0.0080s ]
+
+[ 2016-08-09T14:15:33+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=giftsdata&_=1470723332163
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select *,FROM_UNIXTIME(endtime, '%Y-%m-%d %H:%i:%s') as endtime1 from gamepacks where 1=1 order by endtime desc [ RunTime:0.0010s ]
+
+[ 2016-08-09T14:16:47+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=news_step2&name=%E5%BE%A1%E5%89%91%E6%83%85%E7%BC%98
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-09T14:16:50+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=listsdata&_=1470723410841
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.*,FROM_UNIXTIME(a.gettime, '%Y-%m-%d %H:%i:%s') as gettime,game_name,c.gift_name,c.content from code as a, game as b,gamepacks as c
+                where  a.giftsid=c.giftsid and b.gameid=c.game_id and  flag=1 [ RunTime:0.0060s ]
+
+[ 2016-08-09T14:16:52+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=giftsdata&_=1470723410842
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select *,FROM_UNIXTIME(endtime, '%Y-%m-%d %H:%i:%s') as endtime1 from gamepacks where 1=1 order by endtime desc [ RunTime:0.0010s ]
+
+[ 2016-08-09T14:26:27+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=listsdata&_=1470723987628
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.*,FROM_UNIXTIME(a.gettime, '%Y-%m-%d %H:%i:%s') as gettime,game_name,c.gift_name,c.content from code as a, game as b,gamepacks as c
+                where  a.giftsid=c.giftsid and b.gameid=c.game_id and  flag=1 [ RunTime:0.0060s ]
+
+[ 2016-08-09T14:26:28+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=giftsdata&_=1470723987629
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select *,FROM_UNIXTIME(endtime, '%Y-%m-%d %H:%i:%s') as endtime1 from gamepacks where 1=1 order by endtime desc [ RunTime:0.0010s ]
+
+[ 2016-08-09T15:21:37+08:00 ] ::1 /libao/index.php?m=Home&c=Record&a=importAgain&giftsid=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.*,b.game_name,FROM_UNIXTIME(a.endtime, '%Y-%m-%d %H:%i:%s') as endtime from gamepacks as a, game as b where a.game_id=b.gameid and a.giftsid='6' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T15:21:44+08:00 ] ::1 /libao/index.php?m=Home&c=Record&a=lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `game` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `game`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T15:21:44+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=listsdata&_=1470727304477
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: select a.*,FROM_UNIXTIME(a.gettime, '%Y-%m-%d %H:%i:%s') as gettime,game_name,c.gift_name,c.content from code as a, game as b,gamepacks as c
+                where  a.giftsid=c.giftsid and b.gameid=c.game_id and  flag=1 [ RunTime:0.0070s ]
+
+[ 2016-08-09T15:21:45+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=giftsdata&_=1470727304478
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select *,FROM_UNIXTIME(endtime, '%Y-%m-%d %H:%i:%s') as endtime1 from gamepacks where 1=1 order by endtime desc [ RunTime:0.0010s ]
+
+[ 2016-08-09T15:21:46+08:00 ] ::1 /libao/index.php?m=Home&c=Record&a=importAgain/giftsid&37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:importAgain/giftsid
+
+[ 2016-08-09T15:22:09+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=listsdata&_=1470727329625
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select a.*,FROM_UNIXTIME(a.gettime, '%Y-%m-%d %H:%i:%s') as gettime,game_name,c.gift_name,c.content from code as a, game as b,gamepacks as c
+                where  a.giftsid=c.giftsid and b.gameid=c.game_id and  flag=1 [ RunTime:0.0060s ]
+
+[ 2016-08-09T15:22:10+08:00 ] ::1 /libao/index.php?m=Home&c=Record&a=lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `game` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `game`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T15:22:10+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=listsdata&_=1470727330426
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.*,FROM_UNIXTIME(a.gettime, '%Y-%m-%d %H:%i:%s') as gettime,game_name,c.gift_name,c.content from code as a, game as b,gamepacks as c
+                where  a.giftsid=c.giftsid and b.gameid=c.game_id and  flag=1 [ RunTime:0.0080s ]
+
+[ 2016-08-09T15:22:10+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=giftsdata&_=1470727329626
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select *,FROM_UNIXTIME(endtime, '%Y-%m-%d %H:%i:%s') as endtime1 from gamepacks where 1=1 order by endtime desc [ RunTime:0.0000s ]
+
+[ 2016-08-09T15:22:11+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=giftsdata&_=1470727330427
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select *,FROM_UNIXTIME(endtime, '%Y-%m-%d %H:%i:%s') as endtime1 from gamepacks where 1=1 order by endtime desc [ RunTime:0.0000s ]
+
+[ 2016-08-09T15:22:14+08:00 ] ::1 /libao/index.php?m=Home&c=Record&a=importAgain&giftsid=37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.*,b.game_name,FROM_UNIXTIME(a.endtime, '%Y-%m-%d %H:%i:%s') as endtime from gamepacks as a, game as b where a.game_id=b.gameid and a.giftsid='37' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T15:22:16+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=listsdata&_=1470727336331
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.*,FROM_UNIXTIME(a.gettime, '%Y-%m-%d %H:%i:%s') as gettime,game_name,c.gift_name,c.content from code as a, game as b,gamepacks as c
+                where  a.giftsid=c.giftsid and b.gameid=c.game_id and  flag=1 [ RunTime:0.0060s ]
+
+[ 2016-08-09T15:22:17+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=giftsdata&_=1470727336332
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select *,FROM_UNIXTIME(endtime, '%Y-%m-%d %H:%i:%s') as endtime1 from gamepacks where 1=1 order by endtime desc [ RunTime:0.0010s ]
+
+[ 2016-08-09T15:22:22+08:00 ] ::1 /libao/index.php?m=Home&c=Record&a=importAgain&giftsid=37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.*,b.game_name,FROM_UNIXTIME(a.endtime, '%Y-%m-%d %H:%i:%s') as endtime from gamepacks as a, game as b where a.game_id=b.gameid and a.giftsid='37' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T15:42:15+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=listsdata&_=1470728535351
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: select a.*,FROM_UNIXTIME(a.gettime, '%Y-%m-%d %H:%i:%s') as gettime,game_name,c.gift_name,c.content from code as a, game as b,gamepacks as c
+                where  a.giftsid=c.giftsid and b.gameid=c.game_id and  flag=1 [ RunTime:0.0060s ]
+
+[ 2016-08-09T15:42:16+08:00 ] ::1 /libao/index.php?m=home&c=Record&a=giftsdata&_=1470728535352
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select *,FROM_UNIXTIME(endtime, '%Y-%m-%d %H:%i:%s') as endtime1 from gamepacks where 1=1 order by endtime desc [ RunTime:0.0010s ]
+

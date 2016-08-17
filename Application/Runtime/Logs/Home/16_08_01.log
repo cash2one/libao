@@ -1,0 +1,94 @@
+[ 2016-08-01T10:32:07+08:00 ] ::1 /libao/index.php/Home/Record/lista
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:lista
+
+[ 2016-08-01T10:32:10+08:00 ] ::1 /libao/index.php/Home/Record/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: Model E:\dingding\wamp\www\libao\Application\Home\Controller\RecordController.class.php 第 14 行.
+
+[ 2016-08-01T10:33:19+08:00 ] ::1 /libao/index.php/Home/Record/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 1054:Unknown column 'c.gamepacks' in 'field list'
+ [ SQL语句 ] : select a.*,b.game_name,c.gamepacks,c.content   from code as a, game as b,gamepacks as c
+            where a.giftsid=c.giftsid and b.game_id=c.game_id and a.flag=1
+ERR: 1054:Unknown column 'c.gamepacks' in 'field list'
+ [ SQL语句 ] : select a.*,b.game_name,c.gamepacks,c.content   from code as a, game as b,gamepacks as c
+            where a.giftsid=c.giftsid and b.game_id=c.game_id and a.flag=1
+
+[ 2016-08-01T10:33:59+08:00 ] ::1 /libao/index.php/Home/Record/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'b.game_id' in 'where clause'
+ [ SQL语句 ] : select a.*,b.game_name,c.gift_name,c.content   from code as a, game as b,gamepacks as c
+            where a.giftsid=c.giftsid and b.game_id=c.game_id and a.flag=1
+ERR: 1054:Unknown column 'b.game_id' in 'where clause'
+ [ SQL语句 ] : select a.*,b.game_name,c.gift_name,c.content   from code as a, game as b,gamepacks as c
+            where a.giftsid=c.giftsid and b.game_id=c.game_id and a.flag=1
+
+[ 2016-08-01T10:34:00+08:00 ] ::1 /libao/index.php/Home/Record/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'b.game_id' in 'where clause'
+ [ SQL语句 ] : select a.*,b.game_name,c.gift_name,c.content   from code as a, game as b,gamepacks as c
+            where a.giftsid=c.giftsid and b.game_id=c.game_id and a.flag=1
+ERR: 1054:Unknown column 'b.game_id' in 'where clause'
+ [ SQL语句 ] : select a.*,b.game_name,c.gift_name,c.content   from code as a, game as b,gamepacks as c
+            where a.giftsid=c.giftsid and b.game_id=c.game_id and a.flag=1
+
+[ 2016-08-01T10:35:08+08:00 ] ::1 /libao/index.php/Home/Record/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'c.gameid' in 'where clause'
+ [ SQL语句 ] : select a.*,b.game_name,c.gift_name,c.content   from code as a, game as b,gamepacks as c
+            where a.giftsid=c.giftsid and b.gameid=c.gameid and a.flag=1
+ERR: 1054:Unknown column 'c.gameid' in 'where clause'
+ [ SQL语句 ] : select a.*,b.game_name,c.gift_name,c.content   from code as a, game as b,gamepacks as c
+            where a.giftsid=c.giftsid and b.gameid=c.gameid and a.flag=1
+
+[ 2016-08-01T10:35:27+08:00 ] ::1 /libao/index.php/Home/Record/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select a.*,b.game_name,c.gift_name,c.content   from code as a, game as b,gamepacks as c
+            where a.giftsid=c.giftsid and b.gameid=c.game_id and a.flag=1 [ RunTime:0.0000s ]
+
+[ 2016-08-01T10:35:37+08:00 ] ::1 /libao/index.php/Home/Record/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select a.*,b.game_name,c.gift_name,c.content   from code as a, game as b,gamepacks as c
+            where a.giftsid=c.giftsid and b.gameid=c.game_id and a.flag=1 [ RunTime:0.0000s ]
+

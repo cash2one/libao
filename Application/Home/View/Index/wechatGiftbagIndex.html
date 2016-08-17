@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>微信礼包</title>
+		<link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="__PUBLIC__/css/ace.min.css" />
+		<link rel="stylesheet" href="__PUBLIC__/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="__PUBLIC__/css/main.css" />
+		<script type="text/javascript" src="__PUBLIC__/js/jquery-2.2.4.min.js" ></script>
+		<script type="text/javascript" src="__PUBLIC__/js/bootstrap.min.js" ></script>
+		<script type="text/javascript" src="__PUBLIC__/js/ace.min.js" ></script>
+		<script type="text/javascript" src="__PUBLIC__/js/datatables/jquery.dataTables.js" ></script>
+		<script type="text/javascript" src="__PUBLIC__/js/datatables/dataTables.bootstrap.js" ></script>
+		<script type="text/javascript" src="__PUBLIC__/js/My97DatePicker/WdatePicker.js" ></script>
+		<script type="text/javascript" src="__PUBLIC__/js/ace-extra.min.js" ></script>
+		<script type="text/javascript" src="__PUBLIC__/js/ace-elements.min.js" ></script>
+		<script type="text/javascript" src="__PUBLIC__/js/fuelux.wizard.min.js" ></script>
+		<script type="text/javascript" src="__PUBLIC__/js/jquery.validate.js" ></script>
+		<script type="text/javascript" src="__PUBLIC__/js/wechatGiftbagIndex.js" ></script>
+		<style type="text/css">  
+	    input{behavior:url(#default#savehistory)};  
+		th {    width: 60px !important;}
+	 	</style>  
+	</head>
+	<body>
+		<div class="navbar navbar-default index-header-bar" id="navbar">
+			<script type="text/javascript">
+				try {
+					ace.settings.check('navbar', 'fixed')
+				} catch (e) {}
+			</script>
+			<div class="navbar-container" id="navbar-container">
+				<div class="navbar-header pull-left">
+					<a href="#" class="navbar-brand index-header-logo">
+                       <lable>后台管理</lable> 
+					</a>
+
+				</div>
+
+			</div>
+		</div>
+
+	    <div class="main-container-inner main-container">
+	        <a class="menu-toggler" id="menu-toggler" href="#">
+	            <span class="menu-text"></span>
+	        </a>
+	        <div class="sidebar" id="sidebar">
+	        <script type="text/javascript">
+	            try{ace.settings.check('sidebar' , 'fixed')}catch(e){}
+	        </script>
+	        <ul class="nav nav-list">
+	            <li class="active">
+	                <a href="{:U('Home/Record/lists')}">
+	                    <i class="icon-dashboard"></i>
+	                    <span class="menu-text">公众号礼包 </span>
+	                </a>
+	            </li>
+	                
+	        </ul><!-- /.nav-list -->
+	        <script type="text/javascript">
+	            try{ace.settings.check('sidebar' , 'collapsed')}catch(e){}
+	        </script>
+	    </div>
+        <div class="main-content">
+	        <div class="breadcrumbs" id="breadcrumbs">
+	            <script type="text/javascript">
+	                try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+	            </script>
+	            <ul class="breadcrumb">
+	                <li>
+	                    <i class="icon-dashboard"></i>
+	                    <span>公众号礼包</span>
+	                </li>
+	            </ul><!-- .breadcrumb -->
+	        </div>
+	        <div class="col-sm-12 padding-top">
+				<div class="tabbable">
+					<ul class="nav nav-tabs padding-12 tab-color-blue background-blue " id="myTab4">
+						<li class="active">
+							<a data-toggle="tab" href="#profile6">礼包列表</a>
+						</li>
+						<li id="getCore">
+							<a data-toggle="tab" href="#profile5">领取记录</a>
+						</li>						
+						<li>
+							<a data-toggle="tab" href="#profile7">新建礼包</a>
+						</li>
+						
+					</ul>
+					<div class="tab-content">
+						
+						<div id="profile6" class="tab-pane in active row">
+							<div class="col-sm-12 padding-bottom">
+			                    <form class="form-search"  method="POST"  >
+			                        <div class="searchForm">
+
+		                                <div class="floatL marginleft10">
+		                                    <label>礼包名称：</label>
+		                                    <input type="text" name="giftname" id="p6_gift_name" class="search" value="">
+		                                </div>
+		                                <div class="floatL marginleft10">
+		                                    <label>领取口令 ：</label>
+		                                    <input type="text" name="token" id="p6_token" class="search" value="">
+		                                </div>
+		                                <div class="floatL marginleft10">
+		                                    
+											<label>有效时间</label>
+											<input type="text" name="first_time" id="p6_first_time" value="" class="Wdate" placeholder="开始时间" id="first_time" onFocus="WdatePicker({skin:'twoer',dateFmt:'yyyy-MM-dd HH:mm:ss'})" />
+											<lable>--</lable>
+											<input type="text" name="last_time"  id="p6_last_time" value="" class="Wdate" placeholder="结束时间" id="last_time" onFocus="WdatePicker({skin:'twoer',dateFmt:'yyyy-MM-dd HH:mm:ss'})" />
+		                                </div>
+		                                <div class="floatL marginleft10">
+		                                    <a class="btn btn-default btn-radius padding-12" id="search">查询</a>
+		                                </div>
+			                        </div>
+			                    </form>
+                			</div>
+							<div class="col-sm-12">
+		                    <!-- table list-->
+			                    <div class="row row-margin-common">
+			                        <div class="col-sm-12">
+			                            <div class="table-responsive">
+			                                <table id="packagelist-table" class=" table table-striped table-bordered" style="width: 100%;">
+			                                    <thead>
+			                                    <tr>
+			                                        <th class="center">礼包ID</th>
+			                                        <th class="center">礼包名称</th>
+			                                        <th class="center">领取口令</th>
+			                                        <th class="center">库存</th>
+			                                        <th class="center" style="width:500px;">礼包内容</th>
+			                                        <th class="center">有效期</th>
+			                                        <th class="center">操作</th>
+			                                    </tr>
+			                                    </thead>
+			                                </table>
+			                            </div>
+			                        </div>
+			                    </div>
+		                    <!-- #table list-->
+		                	</div>
+						</div>
+						<div id="profile5" class="tab-pane in  row">
+							<div class="col-sm-12 padding-bottom">
+			                    <form class="form-search">
+			                        <div class="searchForm">
+		                                <div class="floatL">
+		                                    <label>用户ID : </label>
+		                                    <input type="text" id="p5_userid" class="search" >
+		                                </div>
+		                                <div class="floatL marginleft10">
+		                                    <label>礼包名称 : </label>
+		                                    <input type="text" id="p5_giftname" class="search">
+		                                </div>
+		                                <div class="floatL marginleft10">
+		                                    
+											<label>领取时间</label>
+											<input type="text" name="first_time" class="Wdate" placeholder="开始时间" id="p5_first_time" onFocus="WdatePicker({skin:'twoer',dateFmt:'yyyy-MM-dd HH:mm:ss'})" />
+											<lable>--</lable>
+											<input type="text" name="last_time" class="Wdate" placeholder="结束时间" id="p5_last_time" onFocus="WdatePicker({skin:'twoer',dateFmt:'yyyy-MM-dd HH:mm:ss'})" />
+		                                </div>
+
+		                                <div class="floatL marginleft10">
+		                                    <a class="btn btn-default btn-radius padding-12" id="p5_search">查询</a>
+		                                </div>
+		                                 <div class="floatL marginleft10">
+		                                    <a class="btn btn-default btn-radius padding-12" id="import">导出</a>
+		                                </div>
+			                            
+			                        </div>
+			                    </form>
+                			</div>
+							<div class="col-sm-12">
+		                    <!-- table list-->
+			                    <div class="row row-margin-common">
+			                        <div class="col-sm-12">
+			                            <div class="table-responsive">
+			                                <table id="collectRecords-table" style="width: 100%;" class="collectRecords-table table table-striped table-bordered">
+			                                    <thead>
+			                                    <tr>
+			                                        <th class="center">领取时间</th>
+			                                        <th class="center">游戏名称</th>
+			                                        <th class="center">礼包名称</th>
+			                                        <th class="center">礼包码</th>
+			                                        <th class="center">用户ID</th>
+			                                        <th class="center">礼包内容</th>
+			                                    </tr>
+			                                    </thead>
+			                                </table>
+			                            </div>
+			                        </div>
+			                    </div>
+		                    <!-- #table list-->
+		                	</div>
+						</div>
+						<div id="profile7" class="tab-pane in row">
+                            <div class="widget-main widget-main-padding">
+								<form class="form-horizontal col-sm-10 step1-margin show" id="validation-form" method="get">
+									<div class="form-group">
+                                        <label class="control-label col-xs-12 col-sm-6 no-padding-right" for="gamelist">游戏列表</label>
+                                        <div class="col-xs-12 col-sm-6">
+                                            <div class="clearfix">
+                                                <select class="input-medium" id="gamelist" name="gamelist" >
+                                                <volist name="result" id="data">
+                                                <option value="" name="game">{$data.game_name}</option>
+                                              
+                                                </volist>
+                                                  
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+										<label class="control-label col-xs-12 col-sm-6 no-padding-right" for="name">新建游戏</label>
+										<div class="col-xs-12 col-sm-6">
+											<div class="clearfix">
+												<input type="text" id="name" name="name" value="" class="col-xs-12 col-sm-5" />
+											</div>
+										</div>
+									</div>
+								</form>
+								
+								<div class="row-fluid col-sm-6 wizard-actions btn-margin-top floatnone">
+									<button id="next-valicty" class="btn btn-default btn-radius padding-12 marginleft10">
+										下一步
+									</button>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+						
+			</div>
+	    </div>
+		
+	</body>
+</html>

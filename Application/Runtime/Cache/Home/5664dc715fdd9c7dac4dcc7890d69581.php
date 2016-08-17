@@ -7,8 +7,8 @@
 
 <body>
 <form action="<?php echo U('Home/Index/index');?>" method="post" enctype="multipart/form-data">
-游戏名称：<input type="text" name="game_name" value=""><br>
-礼包名称：<input type="text" name="gift_name" value=""><br>
+游戏名称：<input type="text" name="gamename" value=""><br>
+礼包名称：<input type="text" name="giftname" value=""><br>
 领取口令：<input type="text" name="token" value=""><br>
 礼包内容：<textarea name="content" rows="4" cols="25"> </textarea><br>
 有效期：<input type="date" name="endtime"><br>
