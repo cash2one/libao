@@ -228,9 +228,9 @@ class RecordController extends Controller{
      public function editGift(){  
          $id=$_GET['giftsid'];
          $data=M()->table('gamepacks')->join('game on gamepacks.game_id=game.gameid')->field('gamepacks.*,game.*,FROM_UNIXTIME(gamepacks.endtime, "%Y-%m-%d") as endtime1')->where('gamepacks.giftsid="'.$id.'"')->select();
-         foreach ($list as $k=>$v){
+         foreach ($data as $k=>$v){
              if($v['endtime']==0){
-                 $list[$k]['endtime1']=0;
+                 $data[$k]['endtime1']=0;
              }
          }
          $this->assign('list',$data[0]);
