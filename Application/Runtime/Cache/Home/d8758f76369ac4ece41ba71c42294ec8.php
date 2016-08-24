@@ -18,6 +18,9 @@
 		<script type="text/javascript" src="/libao/Public/js/fuelux.wizard.min.js" ></script>
 		<script type="text/javascript" src="/libao/Public/js/jquery.validate.js" ></script>
 		<script type="text/javascript" src="/libao/Public/js/wechatGiftbagIndex.js" ></script>
+		<script type="text/javascript" src="/libao/Public/js/layer/layer.js" ></script>
+	
+		
 		<style type="text/css">  
 	    input{behavior:url(#default#savehistory)};  
 		th {    width: 60px !important;}

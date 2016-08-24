@@ -4,8 +4,16 @@ namespace Home\Controller;
 
 use Think\Controller;
 header("Content-Type: text/html;charset=utf8");
-class IndexController extends Controller
-{
+class IndexController extends Controller{
+    public function __construct()
+    {
+        parent::__construct();
+        if(!isset($_COOKIE['name']) ||empty($_COOKIE['name']) ){
+            $this->redirect('Login/index','',2,"请登录");
+        }
+         
+    }
+    
     public function index()
     {
        date_default_timezone_set('PRC');
@@ -28,7 +36,9 @@ class IndexController extends Controller
            $data['token']=$_POST['token'];
            $data['content']=$_POST['content'];
            $data['content'] = str_replace("\n", '<br>', $data['content']);
-           $data['endtime']=strtotime($_POST['time'])+86399;
+           if(!empty($_POST['time'])){
+               $data['endtime']=strtotime($_POST['time'])+86399;
+           }
            $data['shuoming']=$_POST['shuoming'];
            $data['shuoming'] = str_replace("\n", '<br>', $data['shuoming']);
            $data['platform']=$_POST['platform'];
@@ -110,6 +120,7 @@ class IndexController extends Controller
         
     }
     
+    //追加导入礼包码
     public function importAgainDeal(){
         $a=$this->upload();
         $giftsid=$_POST['giftsid'];   
@@ -122,5 +133,31 @@ class IndexController extends Controller
         
        // $this->display('Index/wechatGiftbagIndex');      
     }
+    
+    
+    public function checkFgiftname(){
+        $model=M();
+        $sql='select giftsid from gamepacks where gift_name="'.$_POST['gift_name'].'" and giftsid<>"'.$_POST['giftsid'].'" ';
+        
+        $result=$model->query($sql);
+        if(!$result){
+            echo "true";
+        }else{
+            echo "false";
+        }
+    }
+    
+    
+    public function checkFtoken(){
+        $model=M();
+        $sql='select giftsid from gamepacks where token="'.$_POST['token'].'" and giftsid<>"'.$_POST['giftsid'].'" ';
+        $result=$model->query($sql);
+        if(!$result){
+            echo "true";
+        }else{
+            echo "false";
+        }
+    }
+    
    
 }

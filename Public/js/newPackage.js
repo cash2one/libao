@@ -58,18 +58,18 @@ $(function(){
 		         }
 				//	maxlength: 25
 				},
-				content:{
-					required:true,
-				},
-				shuoming:{
-					required:true,
-				},
+//				content:{
+//					required:true,
+//				},
+//				shuoming:{
+//					required:true,
+//				},
 				platform:{
 					required:true,
 				},
-				time:{
-					required:true,
-				},
+//				time:{
+//					required:true,
+//				},
 			},
 			messages: {
 				giftname: {
@@ -82,18 +82,18 @@ $(function(){
 					remote:   "领取口令已存在,请重新输入"
 				//	maxlength: "名称不得超过25个字符"
 				},
-				content:{
-					required:"请输入礼包内容",
-				},
-				shuoming:{
-					required:"请输入礼包说明",
-				},
+//				content:{
+//					required:"请输入礼包内容",
+//				},
+//				shuoming:{
+//					required:"请输入礼包说明",
+//				},
 				platform:{
 					required:"请输入礼包适用平台",
 				},
-				time:{
-					required:"请输入礼包有效期",
-				},
+//				time:{
+//					required:"请输入礼包有效期",
+//				},
 				
 			},
 			invalidHandler: function(event, validator) { //display error alert on form submit

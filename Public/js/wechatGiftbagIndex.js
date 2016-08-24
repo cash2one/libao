@@ -1,9 +1,29 @@
+function drop_confirm(id){  
+		  layer.confirm('确定要删除吗？', function(index) {
+			  $.ajax({  
+			        url:'?m=Home&c=Record&a=deleGift',  
+			        data:{'giftsid':id},  
+			        dataType:'JSON',  
+			        type:'post',  
+			        success:function(data){  
+			            if(data == true){  
+			            	layer.alert("删除成功!");
+			            }else{  		               
+			            	layer.alert("删除失败!");
+			            }  
+			        }  
+			    });
+			  window.location.reload();
+		  });
+	}
+
 $(function(){
 //	 var curWwwPath=window.document.location.href;
 //     var pathName=window.document.location.pathname;
 //     var pos=curWwwPath.indexOf(pathName);
 //     var localhostPaht=curWwwPath.substring(0,pos);
 //     var projectName=pathName.substring(0,pathName.substr(1).indexOf('/')+1);
+
 	//领取记录表格加载
 	var collectlist=$('#collectRecords-table').DataTable({
             "ajax": "?m=home&c=Record&a=listsdata",
@@ -13,7 +33,7 @@ $(function(){
             "lengthChange":true,
             "order":[[0, "" ]],
          	"pagingType": "full_numbers",
-            "dom":'rt<"bottom"<"col-md-6 paging"p>>',
+            "dom": 'rt<"bottom"<"bottomjl"i><"bottomfy"p>>',
             "columns":[
                 {"data":"gettime",
                     "render":function(data, type){
@@ -52,6 +72,9 @@ $(function(){
             "language": {
                 "processing": "玩命加载中...",
                 "zeroRecords": "没有数据",
+                "info": "当前总计领取数 _TOTAL_ 条",
+//               "info": "显示第 _START_ 至 _END_ 项结果，共 _TOTAL_ 项",
+                "infoEmpty": "当前总计领取数共 0 条",
                 "paginate": {
                     "first":    "首页",
                     "previous": "上一页",
@@ -75,7 +98,8 @@ $(function(){
 
             "order":[[0, "" ]],
          	"pagingType": "full_numbers",
-            "dom":'rt<"bottom"<"col-md-6 paging"p>>',
+           // "dom":'rt<"bottom"<"col-md-6 paging"p>>',
+         	 "dom": 'rt<"bottom"<"bottomjl"i><"bottomfy"p>>',
             "columns":[
                 {"data":"giftsid",
                     "render":function(data, type){
@@ -109,7 +133,9 @@ $(function(){
 //                    "orderable":false
                 },{"data":"giftsid",
                     "render":function(data, type){
-                        return '<a href="?m=Home&c=Record&a=importAgain&giftsid='+data+' " class="center leadingin">'+'追加导入'+'</a>';
+                        return '<div class="center leadingin"><a href="?m=Home&c=Record&a=importAgain&giftsid='+data+' " >'+'追加'+'</a> | '
+                        		+'<a href="?m=Home&c=Record&a=editGift&giftsid='+data+' " >'+'编辑'+'</a>  | '
+                        	    +'<a onclick=drop_confirm("'+data+'") class="delete">'+'删除'+'</a></div>';
                     }
 //                    "orderable":false
                 },
@@ -119,6 +145,9 @@ $(function(){
             "language": {
                 "processing": "玩命加载中...",
                 "zeroRecords": "没有数据",
+                "info": "当前总计礼包数 _TOTAL_ 条",
+//              "info": "显示第 _START_ 至 _END_ 项结果，共 _TOTAL_ 项",
+                "infoEmpty": "当前总计礼包数共 0 条",
                 "paginate": {
                     "first":    "首页",
                     "previous": "上一页",
@@ -269,6 +298,8 @@ $(function(){
  			}
  			window.location.href='?m=home&c=Record&a=export';
  		 });
-	
+ 		
+//	 		
+	 		
 		
 })

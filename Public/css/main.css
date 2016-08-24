@@ -60,3 +60,52 @@ a:hover {
 .collectRecords-table,.packagelist-table{
 	width: 100%;
 }
+.login-logo {
+	background: #242b31;
+	padding-left: 10px;
+	margin-top: 0;
+}
+
+.login-box {
+	margin-top: 50%;
+}
+
+.check_img {
+	display: inline-block;
+	width: 58px;
+	height: 20px;
+	position: absolute;
+	right: 40px;
+	top: 8px;
+}
+
+.color {
+	color: #858585;
+}
+
+.login-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.help-block {
+	color: #f00;
+	font-size: 12px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.block .marginbottom5 {
+	margin-bottom: 5px;
+}
+
+.input-icon.input-icon-right>input {
+	margin-bottom: 5px;
+}
+.bottomfy{
+	margin-left:-12px
+}.bottomjl{
+	margin:10px 0;
+}

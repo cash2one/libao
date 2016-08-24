@@ -2,12 +2,20 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>导入礼包</title>
+		<title>编辑礼包</title>
 		<link rel="stylesheet" href="/libao/Public/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="/libao/Public/css/ace.min.css" />
 		<link rel="stylesheet" href="/libao/Public/css/font-awesome.min.css" />
 		<link rel="stylesheet" href="/libao/Public/css/main.css" />
 		<script type="text/javascript" src="/libao/Public/js/jquery-2.2.4.min.js" ></script>
+		<script type="text/javascript" src="/libao/Public/js/bootstrap.min.js" ></script>
+		<script type="text/javascript" src="/libao/Public/js/ace.min.js" ></script>
+		<script type="text/javascript" src="/libao/Public/js/ace-extra.min.js" ></script>
+		<script type="text/javascript" src="/libao/Public/js/ace-elements.min.js" ></script>
+		<script type="text/javascript" src="/libao/Public/js/fuelux.wizard.min.js" ></script>
+		<script type="text/javascript" src="/libao/Public/js/jquery.validate.js" ></script>
+		<script type="text/javascript" src="/libao/Public/js/layer/layer.js" ></script>
+		<script type="text/javascript" src="/libao/Public/js/editGift.js" ></script>
 	</head>
 	<body>
 		<div class="navbar navbar-default index-header-bar" id="navbar">
@@ -57,83 +65,78 @@
 		                    <i class="icon-dashboard"></i>
 		                    <span><a href="<?php echo U('Home/Record/lists');?>">公众号礼包</a></span>
 		                </li>
-		                <li class="active">导入礼包</li>
+		                <li class="active">编辑礼包</li>
 		            </ul>
 		        </div>
 		        <div class="page-content padding-top" id="organization-detail">
 		        	<div class="tabbable">
 						<ul class="nav nav-tabs padding-12 tab-color-blue background-blue " id="myTab4">
 							<li class="active">
-								<a data-toggle="tab" href="#profile5">导入礼包</a>
+								<a data-toggle="tab" href="#profile5">编辑礼包</a>
 							</li>
 						</ul>
 					</div>
 					<div class="tab-content">
 						<div id="profile5" class="tab-pane in active row">
-				            <form class="form-horizontal importPackage col-sm-10 step1-margin show" action="<?php echo U('Home/Index/importAgainDeal');?>" method="POST" enctype="multipart/form-data" novalidate="novalidate">
+				            <form class="form-horizontal importPackage col-sm-10 step1-margin show" action="" method="POST" enctype="multipart/form-data" id="validation-edit-form">
+				            <input type="hidden" id="giftsid" name="giftsid" value="<?php echo $_GET['giftsid'] ?>">
+				            
 								<div class="form-group">
 		                            <label class="control-label col-sm-2 control-label" >游戏名称：</label>
 		                            <div class="col-sm-10">
-		                                <span><?php echo ($list["game_name"]); ?></span>
-		                                <input type="hidden" id="gameName" name="gamaname" value="">
+		                               <!--  <span><?php echo ($list["game_name"]); ?></span> --> 
+		                                <input class="col-xs-12 col-sm-5 display-block" type="text" id="gameName" name="gamaname" value="<?php echo ($list["game_name"]); ?>" disabled="disabled">
 		                            </div>
 		                        </div>
 								<div class="form-group">
 		                            <label class="control-label col-sm-2 control-label" >礼包名称：</label>
 		                            <div class="col-sm-10">
-		                                <span><?php echo ($list["gift_name"]); ?></span>
-		                                <input type="hidden" id="giftName" name="giftsid" value="<?php echo ($list["giftsid"]); ?>">
+		                               <!--  <span><?php echo ($list["gift_name"]); ?></span>  -->
+		                                <input class="col-xs-12 col-sm-5 display-block" type="text" id="gift_name" name="gift_name" value="<?php echo ($list["gift_name"]); ?>" >
 		                            </div>
 		                        </div>
 		
 								<div class="form-group">
 		                            <label class="control-label col-sm-2 control-label" >领取口令：</label>
 		                            <div class="col-sm-10">
-		                                <span><?php echo ($list["token"]); ?></span>
-		                                <input type="hidden" id="getCode" name="token" value="">
+		                              <!--    <span><?php echo ($list["token"]); ?></span> -->
+		                                <input class="col-xs-12 col-sm-5 display-block" type="text" id="token" name="token" value="<?php echo ($list["token"]); ?>">
 		                            </div>
 		                        </div>
 		
 								<div class="form-group">
 		                            <label class="control-label col-sm-2 control-label" >礼包内容：</label>
 		                            <div class="col-sm-10">
-		                                <span><?php echo ($list["content"]); ?></span>
-		                                <input type="hidden" id="packageContent" name="content" value="">
+		                             <!--     <span><?php echo ($list["content"]); ?></span> -->
+		                               <textarea  id="content" name="content" class="col-xs-12 col-sm-5 display-block" maxlength="200"  rows="4"  datatype="*" errormsg="请填写礼包内容" nullmsg="请填写礼包内容"><?php echo ($list["content"]); ?></textarea>
 		                            </div>
 		                        </div>
 		                        <div class="form-group">
 		                            <label class="control-label col-sm-2 control-label" >使用说明：</label>
 		                            <div class="col-sm-10">
-		                                <span><?php echo ($list["shuoming"]); ?></span>
-		                                <input type="hidden" id="packageContent" name="content" value="">
+		                                 
+		                                <textarea id="shuoming" name="shuoming" class="col-xs-12 col-sm-5 display-block" maxlength="200"  rows="4"   errormsg="请填写使用说明" nullmsg="请填写使用说明" ><?php echo ($list["shuoming"]); ?></textarea> 
+		                                
 		                            </div>
 		                        </div>
 		                        <div class="form-group">
 		                            <label class="control-label col-sm-2 control-label" >适用平台：</label>
 		                            <div class="col-sm-10">
-		                                <span><?php echo ($list["platform"]); ?></span>
-		                                <input type="hidden" id="packageContent" name="content" value="">
+		                              <!--   <span><?php echo ($list["platform"]); ?></span>   -->
+		                                <input class="col-xs-12 col-sm-5 display-block" type="text" id="platform" name="platform" value="<?php echo ($list["platform"]); ?>">
 		                            </div>
 		                        </div>
 								<div class="form-group">
 		                            <label class="control-label col-sm-2 control-label" >有效期：</label>
 		                            <div class="col-sm-10">
-		                                <span><?php echo ($list["endtime1"]); ?></span>
-		                                <input type="hidden" id="time" name="endtime" value="">
+		                               <!--   <span><?php echo ($list["endtime"]); ?></span> -->
+		                                <input class="col-xs-12 col-sm-5 display-block" type="date" id="endtime" name="endtime" value="<?php echo ($list["endtim1"]); ?>">
 		                            </div>
 		                        </div>
-		                        <div class="form-group micro-form-group">
-									<label class="control-label col-sm-2 control-label" for="id-input-file-3">选择文件：</label>
-									<div class="col-sm-10">
-										<div class="clearfix">
-											<input class="upload" type="file" name="file"/>
-											<!-- <input type="button" value="上传" class="btn btn-default btn-radius padding-12"> -->
-										</div>
-									</div>
-								</div>
+		                       
 								<div class="form-group">
 									<div class="col-sm-10 col-sm-offset-2"">
-										<button type="submit" class="btn-radius padding-12 btn btn-default">确定</button>
+										<a id="editGift" class="btn-radius padding-12 btn btn-default">确定</a>
 									</div>
 								</div>
 							</form>

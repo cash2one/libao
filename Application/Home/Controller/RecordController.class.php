@@ -2,8 +2,17 @@
 namespace Home\Controller;
 
 use Think\Controller;
-
+header("Content-Type: text/html;charset=utf8");
 class RecordController extends Controller{
+    public function __construct()
+    {
+        parent::__construct();
+        if(!isset($_COOKIE['name']) ||empty($_COOKIE['name']) ){
+           $this->redirect('Login/index','',2,"请登录");
+        }
+       
+    }
+    
     public function lists(){
         $model=M();
         $result=$model->table('game')->select();
@@ -37,6 +46,11 @@ class RecordController extends Controller{
 
        $sql="select *,FROM_UNIXTIME(endtime, '%Y-%m-%d %H:%i:%s') as endtime1 from gamepacks where $sql order by endtime desc";   
        $list['data']= $model->query($sql);
+       foreach ($list['data'] as $k=>$v){
+           if($v['endtime']==0){
+               $list['data'][$k]['endtime1']="永久有效";   
+           }
+       }
        $a=$this->ajaxReturn($list,'json');            
     }
     
@@ -64,9 +78,10 @@ class RecordController extends Controller{
         
         $sql ="select a.*,FROM_UNIXTIME(a.gettime, '%Y-%m-%d %H:%i:%s') as gettime,game_name,c.gift_name,c.content from code as a, game as b,gamepacks as c
                 where $sql";
+       
         $list['data']= $model->query($sql);
         
-    
+     
         $a=$this->ajaxReturn($list,'json');
     }
     
@@ -113,49 +128,24 @@ class RecordController extends Controller{
     public function importAgain(){
         $model=M();
         $giftsid=$_GET['giftsid'];
-         $model=M();
-       $sql="select a.*,b.game_name,FROM_UNIXTIME(a.endtime, '%Y-%m-%d %H:%i:%s') as endtime from gamepacks as a, game as b where a.game_id=b.gameid and a.giftsid='".$giftsid."'";
-       $list= $model->query($sql);     
+        
+       $sql="select a.*,b.game_name,FROM_UNIXTIME(a.endtime, '%Y-%m-%d %H:%i:%s') as endtime1 from gamepacks as a, game as b where a.game_id=b.gameid and a.giftsid='".$giftsid."'";
+       $list= $model->query($sql);
+       foreach ($list as $k=>$v){
+           if($v['endtime']==0){
+               $list[$k]['endtime1']="永久有效";
+           }
+       }     
         $this->assign('list',$list[0]);
       
         $this->display('Index/importPackage');
     }
     
-    //start
-    public function exportExcel(){
-        vendor('PHPExcel.PHPExcel');
-        $objExcel = new \PHPExcel();
-        //set document Property
-        $objWriter = \PHPExcel_IOFactory::createWriter($objExcel, 'Excel2007');
-    
-        $objActSheet = $objExcel->getActiveSheet();
-        $key = ord("A");
-    
-        $objActSheet->setCellValue("A1", 'test1');
-        $objActSheet->setCellValue("A2", 'test2');
-        $objActSheet->setCellValue("B1", 'test3');
-        $objActSheet->setCellValue("B2", 'test4');
-    
-        $outfile = "test.xls";
-    
-        //export to exploer
-    
-        header("Content-Type: application/force-download");
-        header("Content-Type: application/octet-stream");
-        header("Content-Type: application/download");
-        header('Content-Disposition:inline;filename="'.$outfile.'"');
-        header("Content-Transfer-Encoding: binary");
-        header("Cache-Control: must-revalidate, post-check=0, pre-check=0");
-        header("Pragma: no-cache");
-        $objWriter->save('php://output');
-        exit;
-    }
-    //end
+   
      public function export(){
 
          $model=M();
-         $sql=" a.giftsid=c.giftsid and b.gameid=c.game_id and  flag=1";
-        // $sql=" a.giftsid=c.giftsid and b.gameid=c.game_id and  flag=1";
+         $sql=" a.giftsid=c.giftsid and b.gameid=c.game_id and  flag=1";     
          
          if(isset($_COOKIE['userid']) && !empty($_COOKIE['userid'])){
              $userid=urldecode($_COOKIE['userid']);
@@ -218,6 +208,57 @@ class RecordController extends Controller{
           header("Pragma: no-cache");
           $objWriter->save('php://output');
           exit;
+         
+     }
+     
+     public function deleGift(){
+         $Model=M();
+         $giftsid=$_POST['giftsid'];
+         $Model->table('code')->where('giftsid="'.$giftsid.'"')->delete();
+         $result=$Model->table('gamepacks')->where('giftsid="'.$giftsid.'"')->delete();
+           
+         if($result){
+             echo 'true';
+         }else{
+             echo 'false';              
+         }
+        
+     }
+     
+     public function editGift(){  
+         $id=$_GET['giftsid'];
+         $data=M()->table('gamepacks')->join('game on gamepacks.game_id=game.gameid')->field('gamepacks.*,game.*,FROM_UNIXTIME(gamepacks.endtime, "%Y-%m-%d") as endtime1')->where('gamepacks.giftsid="'.$id.'"')->select();
+         foreach ($list as $k=>$v){
+             if($v['endtime']==0){
+                 $list[$k]['endtime1']=0;
+             }
+         }
+         $this->assign('list',$data[0]);
+        $this->display('Index/editPage');
+     
+     }
+     
+     public function editGiftSave(){
+         $Model=M();
+         $where['giftsid']=$_POST['giftsid'];
+         $data['gift_name']=$_POST['gift_name'];
+         $data['token']=$_POST['token'];
+         $data['content']=$_POST['content'];
+         $data['content'] = str_replace("\n", '<br>', $data['content']);
+         if(strtotime($_POST['endtime'])!=0){
+             $data['endtime']=strtotime($_POST['endtime'])+86399;
+         }
+
+         $data['shuoming']=$_POST['shuoming'];
+         $data['shuoming'] = str_replace("\n", '<br>', $data['shuoming']);
+         $data['platform']=$_POST['platform'];
+
+         $result=$Model->table('gamepacks')->where($where)->save($data);
+         if($result){
+             echo 'true';
+         }else{
+             echo 'false';
+         }
          
      }
     
